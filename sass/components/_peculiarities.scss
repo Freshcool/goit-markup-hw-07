@@ -1,0 +1,35 @@
+
+.pecularities-icon-container {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  height: 120px;
+  width: 270px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.pecularities-list {
+  display: flex;
+}
+
+.pecularities-item {
+  margin-right: 30px;
+  width: 100%;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.after-title-peculiarities {
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.text-peculiarities {
+  line-height: 1.71;
+  color: var(--contacts-color);
+}
