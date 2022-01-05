@@ -15,16 +15,20 @@
   background-color: var(--footer-background-color);
 }
 
-.logo-footer {
+.footer-logo__web {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--footer-logo-color);
+  color: var(--button-background-color);
   text-decoration: none;
 }
 
-.address-link {
+.footer-logo__studio {
+color: var(--button-color);
+}
+
+.address-list__link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-style: normal;
@@ -41,34 +45,34 @@
   margin-top: 20px;
 }
 
-.footer-item {
+.address-list__item {
   margin-bottom: 9px;
   &:last-child {
     margin-bottom: 0;
   }
 }
 
-.footer-links-container {
+.join-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.footer-title {
+.join-container__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--background-color);
 }
 
-.footer-links-list {
+.join-container__list {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
 
-.footer-icon-item {
+.join-list__item {
   display: flex;
   margin-right: 10px;
   width: 44px;
@@ -78,7 +82,7 @@
   }
 }
 
-.icon-footer-link {
+.join-list__link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   display: flex;
@@ -94,28 +98,28 @@
   }
 }
 
-.icon-footer {
+.join-list__icon {
   fill: var(--background-color);
 }
 
-.footer-follow-form {
+.subscribe-container__form {
   display: flex;
 }
 
-.follow-form {
+.subscribe-form {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.follow-text {
+.subscribe-container__text {
   margin-bottom: 20px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--button-color);
 }
 
-.follow-input {
+.subscribe-form__input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -128,7 +132,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.follow-button {
+.subscribe-form__button {
   display: flex;
   align-items: center;
   margin-left: 12px;
@@ -151,7 +155,7 @@
   }
 }
 
-.follow-icon {
+.subscribe-form__icon {
   margin-left: 10px;
   fill: var(--button-color);
 }

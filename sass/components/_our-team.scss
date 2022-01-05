@@ -1,17 +1,17 @@
-.our-team-title {
-    text-align: center;
-    margin-bottom: 50px;
-  
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.2;
+.team__title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
 }
   
-.our-team-list {
+.team__list {
   display: flex;
 }
 
-.our-team-item {
+.team__item {
   text-align: center;
   margin-right: 30px;
 
@@ -24,7 +24,7 @@
   }
 }
 
-.our-team-subtitle {
+.team__subtitle {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -32,21 +32,24 @@
   line-height: 1.2;
 }
 
-.our-team-text {
+.team__text {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.2;
   color: var(--contacts-color);
 }
 
-.our-team-contact-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.team__social {
   margin-bottom: 30px;
 }
 
-.our-team-contact-item {
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list__item {
   display: flex;
   width: 44px;
   height: 44px;
@@ -56,7 +59,7 @@
   }
 }
 
-.our-team-link {
+.social-list__link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   display: flex;
@@ -70,13 +73,13 @@
   &:focus {
     background-color: #2196f3;
   }
-  &:hover .our-team-icon,
-  &:focus .our-team-icon {
+  &:hover .social-list__icon,
+  &:focus .social-list__icon {
     fill: var(--background-color);
   }
 }
 
-.our-team-icon {
+.social-list__icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #afb1b8;
 }

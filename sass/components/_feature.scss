@@ -1,5 +1,17 @@
 
-.pecularities-icon-container {
+.feature {
+  display: flex;
+}
+
+.feature__item {
+  margin-right: 30px;
+  width: 100%;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feature__icon-container {
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -10,26 +22,14 @@
   justify-content: center;
   align-items: center;
 }
-  
-.pecularities-list {
-  display: flex;
-}
 
-.pecularities-item {
-  margin-right: 30px;
-  width: 100%;
-  &:last-child {
-    margin-right: 0;
-  }
-}
-
-.after-title-peculiarities {
+.feature__title {
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 10px;
 }
 
-.text-peculiarities {
+.feature__text {
   line-height: 1.71;
   color: var(--contacts-color);
 }

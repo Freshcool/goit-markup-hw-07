@@ -1,5 +1,5 @@
 
-.what-we-do-title {
+.employment__title {
     margin-bottom: 50px;
     text-align: center;
   
@@ -8,11 +8,11 @@
     line-height: 1.2;
 }
   
-.what-we-do-list {
+.employment__list {
   display: flex;
 }
 
-.what-we-do-item {
+.employment__item {
   position: relative;
 
   margin-right: 30px;
@@ -21,7 +21,7 @@
   }
 }
 
-.after-title-what-we-do {
+.employment__text {
   position: absolute;
   bottom: 0;
   left: 0;
